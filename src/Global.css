@@ -8,6 +8,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  background: white;
 }
 
 html {
@@ -49,7 +50,7 @@ h3 {
 .screen-recorder {
   transform: translateY(2rem);
   width: 100%;
-  max-width: 370px;
+  max-width: 600px;
   text-align: center;
 }
 
@@ -128,6 +129,10 @@ h3 {
   transform: translateY(0);
 }
 
+.screen-recorder .actions p {
+  margin: 0 0 1rem 0;
+}
+
 .screen-recorder .actions .button {
   background: grey;
 }
@@ -136,6 +141,18 @@ h3 {
   0% { opacity: 0; }
   50% { opacity: 1; }
   100% { opacity: 0; }
+}
+
+/* --------------------------------------
+*
+* SCREEN RECORDER OPTIONS
+*
+* -------------------------------------*/
+.screen-recorder-options {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-radius: 15px;
+  background: rgb(240, 240, 240)
 }
 
 /* --------------------------------------
@@ -184,6 +201,41 @@ h3 {
 
 .screen-recorder-preview .video-actions .button {
   margin-right: 1rem;
+}
+
+/* --------------------------------------
+*
+* SCREEN RECORDER SCREEN PREVIEW
+*
+* -------------------------------------*/
+.screen-recorder-screen-preview {
+  display: flex;
+  width: 100%;
+  max-height: 0;
+  height: auto;
+  margin-bottom: 0;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translateY(10%);
+  transition: all 0.25s ease;
+  transition-delay: 0.15s;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.screen-recorder-screen-preview.video-recording {
+  max-height: 251px;
+  margin-bottom: 2rem;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: all;
+  transform: translateY(0);
+}
+
+.screen-recorder-screen-preview video {
+  width: 100%;
 }
 
 /* --------------------------------------
