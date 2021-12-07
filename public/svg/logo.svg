@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1375" height="266" viewBox="0 0 1375 266">
+  <g id="Group_4" data-name="Group 4" transform="translate(0 -105)">
+    <g id="Group_3" data-name="Group 3">
+      <g id="Group_2" data-name="Group 2">
+        <g id="Group_1" data-name="Group 1" transform="translate(0.123 105.123)">
+          <rect id="Rectangle_1" data-name="Rectangle 1" width="266" height="266" rx="78" transform="translate(-0.123 -0.123)" fill="#67ec88"/>
+          <path id="video-solid" d="M97.956,64H13.927A13.927,13.927,0,0,0,0,77.927v84.029a13.927,13.927,0,0,0,13.927,13.927H97.956a13.927,13.927,0,0,0,13.927-13.927V77.927A13.927,13.927,0,0,0,97.956,64Zm55.184,10.984L121.207,97.011v45.861l31.933,22c6.177,4.254,14.685-.087,14.685-7.517V82.5C167.825,75.1,159.347,70.73,153.141,74.984Z" transform="translate(48.778 12.749)" fill="#1a1a1a"/>
+        </g>
+        <text id="Screen_recorder" data-name="Screen recorder" transform="translate(356 281)" fill="#1a1a1a" font-size="123" font-family="Poppins-ExtraBold, Poppins" font-weight="800"><tspan x="0" y="0">Screen recorder</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,5 +1,3 @@
 import { ScreenRecorder } from "./ScreenRecorder";
 
-export {
-  ScreenRecorder
-}
+export { ScreenRecorder };
